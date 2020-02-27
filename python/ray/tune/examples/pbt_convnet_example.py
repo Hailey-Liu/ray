@@ -72,7 +72,7 @@ class PytorchTrainble(tune.Trainable):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--smoke-test", action="store_true", help="Finish quickly for testing")
+        "--smoke_test", action="store_true", help="Finish quickly for testing")
     args, _ = parser.parse_known_args()
 
     ray.init()
